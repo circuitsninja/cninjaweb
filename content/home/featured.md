@@ -3,7 +3,7 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
 
-# nothing to put here yet
+# nothing to put here 
 active: no
 
 # This file represents a page section.
