@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Circuits Ninja
+title: Landau
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,7 +14,7 @@ superuser: true
 #  url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I think about circuits at work 💻 and at home 🏡... ideally over a cup of coffee ☕
 
 # Interests to show in About widget
 interests:
