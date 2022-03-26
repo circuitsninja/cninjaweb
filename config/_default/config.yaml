@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Circuits.Ninja # Website name
+baseURL: 'https://circuits.ninja/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -68,5 +68,9 @@ related:
       weight: 70
 security:
   _merge: deep
+  funcs:          # added to resolve https://github.com/wowchemy/wowchemy-hugo-themes/issues/2595
+    getenv:       # added to resolve https://github.com/wowchemy/wowchemy-hugo-themes/issues/2595
+      - ^HUGO_    # added to resolve https://github.com/wowchemy/wowchemy-hugo-themes/issues/2595
+      - ^WC_      # added to resolve https://github.com/wowchemy/wowchemy-hugo-themes/issues/2595
 sitemap:
   _merge: deep
