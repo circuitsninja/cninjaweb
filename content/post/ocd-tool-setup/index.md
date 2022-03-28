@@ -32,14 +32,23 @@ Linux (WSL). You could also download and use VMware to run Linux on Windows. WSL
 
 I will use the SkyWater130 PDK. Most of the information here, I gathered from Tim's [SKY130 installation instructions](http://opencircuitdesign.com/open_pdks/install.html) at [Opencircuitdesign.com](http://opencircuitdesign.com). I am not an IC CAD or software expert and I had to spend some time to search for information to fill in the gaps for some of the steps in the installation process. I will *try my best* to document all of them here and point you to other resources I went through.
 
-## 1. Installing WSL2
-Since I am running Windows 10 Pro (Version 21H1, OS Build 19043.1586) I can install WSL2. The installation steps can be found [here](https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577).
+## 1. Installing WSL2, Ubuntu and X Server
+I am running Windows 10 Pro (Version 21H1, OS Build 19043.1586). Before I could run Ubuntu, I had to setup WSL2 on Windows. The full installation steps can be found [here](https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577).  The link takes you through the install of 
+
+1. WSL2
+2. Ubuntu
+3. Desktop manager (GUI)
+4. Xserver
+
+When it came to the GUI, I experienced issues with `xubuntu-desktop` (window icons don't appear and mouse cursor lags), so I suggest that you install `ubuntu-mate-desktop` instead when you reach that step.
+
+This part of the install went relatively smoothly for me 🙂
+
+> Windows 11 comes with [native GUI support](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps), so if you have Win 11, you can probably do without Xserver.
+
+## 2. Installing Ngspice
 
 
-## 2. Installing Ubuntu
-
-## 3. Installing Ngspice
-
-## 4. Installing SKY130
+## 3. Installing SKY130
 
 ## Other resources
